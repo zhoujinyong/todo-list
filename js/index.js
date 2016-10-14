@@ -52,11 +52,12 @@ $(function(){
 	}else{
 		localStorage.todo_data=JSON.stringify(todos);
 	}	
+	$("#text").on("blur",function(){
+		str=$(this).val();
+	})
 	//点击创建留言
 	$(".shuquye .text").on('click',function(){
-		$("#text").on("blur",function(){
-		str=$(this).val();
-		})
+		
 		if(str){
 			addTodo()
 			$("#text").val("");
@@ -107,6 +108,7 @@ $(function(){
 	var index;
 	//点击进去修改页面
 	$(".shouye").on('touchend', ".fanhui", function(){
+		date = new Date();
 		index=$(this).closest('ul').index();
 		var text=todos[index].title
 		$("#tex").val(text)
@@ -136,7 +138,7 @@ $(function(){
 //		todos.splice(index,1);
 //		localStorage.todo_data=JSON.stringify(todos);
 		if(strs){
-			date=new Date();
+			
 			render()
 			$("#tex").val("");
 			strs=""
@@ -148,6 +150,7 @@ $(function(){
 	})
 	//修改后页面输入框失去焦点
 	$("#tex").on("blur",function(){
+		
 		todos=JSON.parse(localStorage.todo_data)
 		strs=$(this).val();
 		todos[index].title=strs;

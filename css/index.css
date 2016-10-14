@@ -261,13 +261,14 @@ body {
   .bianji input {
     outline: medium;
     width: 4rem;
-    height: 0.4rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
     position: absolute;
     top: 2rem;
     left: 0;
     right: 0;
     margin: auto;
-    font-size: 0.2rem; }
+    font-size: 0.26rem; }
 
 .shuquye {
   display: none;
@@ -292,13 +293,14 @@ body {
   .shuquye input {
     outline: medium;
     width: 4rem;
-    height: 0.4rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
     position: absolute;
     top: 2rem;
     left: 0;
     right: 0;
     margin: auto;
-    font-size: 0.2rem; }
+    font-size: 0.26rem; }
 
 .yiru {
   transition: transform 0.8s ease;

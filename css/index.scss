@@ -249,13 +249,14 @@ body{
     input{
         outline:medium;
         width: 4rem;
-        height: 0.4rem;
+        height: 0.6rem;
+        line-height: 0.6rem;
         position: absolute;
         top: 2rem;
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 0.2rem;
+        font-size: 0.26rem;
     }
 }
 .shuquye{
@@ -276,19 +277,20 @@ body{
             height: 0.6rem;
             border-bottom: 1px solid #e0d4c3;
             width: 100% ;
-           background: #f9f5ec;
+           background:#f9f5ec;
         }
     }
     input{
         outline:medium;
         width: 4rem;
-        height: 0.4rem;
+        height: 0.6rem;
+        line-height: 0.6rem;
         position: absolute;
         top: 2rem;
         left: 0;
         right: 0;
         margin: auto;
-        font-size: 0.2rem;
+        font-size: 0.26rem;
     }
 }
 .yiru{
