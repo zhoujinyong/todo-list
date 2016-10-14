@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>记事本</title>
+		<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no, width=dovice-width"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/index.js"></script>
+		<link rel="apple-touch-icon" href="./img/03.png">
+		<link rel="icon" href="./img/03.png">
+	</head>
+	<body>
+	<div class="shouye">
+		<div class="head">
+			<div class="left iconfont icon-shezhi"></div>
+			<div class="right iconfont icon-bianji"></div>	
+			<span >全部便签<p class="iconfont" >&#xe610;</p></span>
+		</div>
+		<div class="sousuo-box">
+			<div class="sousuo iconfont icon-chaxun"><input type="text" name="" id="sousuo" value="搜索关键字" onfocus="if (value =='搜索关键字'){value =''}" onblur="if (value ==''){value='搜索关键字'}" />
+			</div>
+		</div>
+		<div class="lists">
+		<!--<ul>
+			<li class="lis1">
+				<b class="b1"></b>
+				<b class="b2">今天 16:38
+				<p class="iconfont icon-iconfontwujiaoxing"></p></b>
+			</li>
+			<li class="lis2">
+				<b class="b1"></b>
+				<b class="b2">记得写作业</b>
+			</li>
+			<div class="delete">
+				<img src="img/delete (1).png"/>
+			</div>
+		</ul>-->
+		</div>
+	</div>
+	<div class="bianji">
+		<div class="head">
+			<div class="left"style="font-size: 0.18rem;">&lt;返回</div>
+			<div class="right text" style="font-size: 0.18rem;">确认</div>
+			<span >修改内容</span>
+			</div>
+			
+		<input type="text" name="" id="tex" value="" />
+	</div>	
+	</div>
+	<div class="shuquye">
+		<div class="head">
+			<div class="left"style="font-size: 0.18rem;">&lt;列表</div>
+			<div class="right iconfont icon-duihaoicon text"></div>
+			<div class="right iconfont icon-tupian"></div>
+		</div>
+		<input type="text" name="" id="text" value="添加内容:" onfocus="if (value =='添加内容:'){value =''}" onblur="if (value ==''){value='添加内容:'}"/>
+	</div>
+	</body>
+</html>

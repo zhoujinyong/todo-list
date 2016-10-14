@@ -1,0 +1,305 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 76.66667px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 76.2963px; } }
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 70.37037px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 69.44444px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 66.66667px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 59.25926px; } }
+
+body {
+  font-size: 16px;
+  background: url(../img/1.png);
+  opacity: 0.8;
+  overflow-x: hidden; }
+
+@font-face {
+  font-family: "iconfonts";
+  src: url("iconfonts.woff"); }
+
+.iconfonts {
+  font-family: "iconfonts" !important; }
+
+.icon-shijian:before {
+  content: "\e625"; }
+
+.icon-shijian1:before {
+  content: "\e67e"; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  /* IE9*/
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-iconfontwujiaoxing:before {
+  content: "\e7b2"; }
+
+.icon-bianji:before {
+  content: "\e77d"; }
+
+.icon-shezhi:before {
+  content: "\e779"; }
+
+.icon-sanjiao:before {
+  content: "\e610"; }
+
+.icon-chaxun:before {
+  content: "\e61c"; }
+
+.icon-tupian:before {
+  content: "\e64b"; }
+
+.icon-duihaoicon:before {
+  content: "\e62b"; }
+
+.icon-pingfen:before {
+  content: "\e61e"; }
+
+.shouye {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0; }
+
+.head {
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  height: 0.75rem;
+  background: #78655a;
+  border-bottom: 2px solid #4f392b; }
+  .head .left, .head .right {
+    width: 0.78rem;
+    height: 0.45rem;
+    border: 1px solid #51433c;
+    border-radius: 4px;
+    float: left;
+    margin-left: 0.09rem;
+    margin-top: 0.14rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.45rem; }
+    .head .left::after, .head .right::after {
+      content: "";
+      display: block;
+      clear: both; }
+  .head .right {
+    float: right;
+    margin-right: 0.09rem;
+    margin-top: 0.14rem; }
+  .head span {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 0.26rem;
+    line-height: 0.45rem;
+    top: 0.14rem;
+    left: 2rem; }
+    .head span p {
+      display: inline-block;
+      color: #51463f; }
+
+.sousuo-box {
+  width: 100%;
+  height: 0.69rem;
+  position: fixed;
+  z-index: 10;
+  background: #f39408;
+  margin-top: 0.75rem; }
+  .sousuo-box .sousuo {
+    margin-top: 0.15rem;
+    color: #9e7a60;
+    width: 4.93rem;
+    height: 0.41rem;
+    border-radius: 0.21rem;
+    background: #f6f0eb;
+    line-height: 0.41rem;
+    margin-left: 0.17rem;
+    padding-left: 0.15rem;
+    box-shadow: 0 -3px 6px -2px #78655a; }
+    .sousuo-box .sousuo::after {
+      content: "";
+      display: block; }
+    .sousuo-box .sousuo input {
+      color: #9E9E9E;
+      outline: medium;
+      width: 4rem;
+      height: 95%;
+      border: 0;
+      line-height: 0.41rem;
+      background-color: #f6f0eb; }
+
+.shouye .lists {
+  margin-top: 1.43rem; }
+
+.shouye ul {
+  position: relative;
+  width: 5.04rem;
+  height: 1.01rem;
+  margin-top: 0.15rem;
+  margin-left: 0.17rem;
+  background: #f7f2ea;
+  box-shadow: 0 3px 6px -2px black;
+  overflow: hidden; }
+  .shouye ul .lis1 {
+    height: 0.37rem;
+    width: 100%;
+    border-bottom: 1px solid #eae4dc; }
+    .shouye ul .lis1 .b1 {
+      display: block;
+      height: 0.37rem;
+      width: 0.37rem;
+      background: #f7f2ea;
+      float: left;
+      border-right: 1px solid #f3e9dc;
+      color: #f39408;
+      text-align: center;
+      line-height: 0.37rem; }
+    .shouye ul .lis1 .b2 {
+      width: 4.453rem;
+      display: block;
+      padding-left: 0.2rem;
+      font-size: 0.16rem;
+      line-height: 0.37rem;
+      background: #fdfaf2;
+      float: right;
+      color: #78553d; }
+      .shouye ul .lis1 .b2 p {
+        color: #f2ece4;
+        display: block;
+        float: right;
+        margin-right: 0.1rem; }
+        .shouye ul .lis1 .b2 p:hover {
+          color: #2d1809; }
+  .shouye ul .lis2 {
+    height: 0.63rem;
+    width: 100%; }
+    .shouye ul .lis2 .b1 {
+      display: block;
+      height: 0.37rem;
+      width: 0.37rem;
+      background: #f7f2ea;
+      float: left;
+      border-right: 1px solid #f3e9dc;
+      color: #f39408;
+      text-align: center;
+      line-height: 0.63rem; }
+    .shouye ul .lis2 .b2 {
+      width: 4.453rem;
+      padding-left: 0.2rem;
+      font-size: 0.22rem;
+      line-height: 0.63rem;
+      background: #fdfaf2;
+      display: block;
+      float: right;
+      color: #78553d; }
+  .shouye ul .delete {
+    height: 1rem;
+    width: 0.5rem;
+    background: #e6ad79;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin-right: 0.55rem;
+    transform: translate3d(2rem, 0, 0); }
+    .shouye ul .delete img {
+      width: 0.25rem;
+      height: 0.25rem;
+      display: block;
+      padding: 0.125rem;
+      border-bottom: 1px solid #78655a; }
+  .shouye ul .shezhi {
+    transition: transform 0.8s ease;
+    transform: translate3d(0, 0, 0); }
+
+.bianji {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  transition: transform 0.8s ease;
+  transform: translateX(100%); }
+  .bianji input {
+    outline: medium;
+    width: 4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 0.2rem; }
+
+.shuquye {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  transition: transform 0.8s ease;
+  transform: translateX(100%); }
+  .shuquye .concent {
+    background: white;
+    width: 100%; }
+    .shuquye .concent ul {
+      width: 100%; }
+    .shuquye .concent li {
+      height: 0.6rem;
+      border-bottom: 1px solid #e0d4c3;
+      width: 100%;
+      background: #f9f5ec; }
+  .shuquye input {
+    outline: medium;
+    width: 4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 0.2rem; }
+
+.yiru {
+  transition: transform 0.8s ease;
+  transform: translateX(0); }
